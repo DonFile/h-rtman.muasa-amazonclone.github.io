@@ -1,0 +1,28 @@
+.nav{
+    background-color:  #f0c14b;
+    display: flex;
+    position: sticky;
+}
+.nav_menu{
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.nav_links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+.nav_linkOption > a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
+    align-items: center;
+}
+.nav_linkOption > a:hover{
+    outline-width: white;
+    
+}
